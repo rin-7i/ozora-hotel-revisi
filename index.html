@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozora-Hotel-Rin7i</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="top">
+            <div class="menu-sp">
+                <img src="img/menusp.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="img/01-top-a2.png" alt="" class="lg">
+                <img src="img/logosp.png" alt="" class="sp">
+            </div>
+            <div class="top-text">
+                <img src="img/01-hotel-name-a.png" alt="" class="lg">
+                <img src="img/titlehotel.png" alt="" class="sp">
+            </div>
+        </div>
+        <div id="menu-lg">
+            <a href="">
+                <img src="img/01-navbar-a.png" alt="">
+            </a>
+            <a href="">
+                <img src="img/01-navbar-b.png" alt="">
+            </a>
+            <a href="">
+                <img src="img/01-navbar-c.png" alt="">
+            </a>
+            <a href="">
+                <img src="img/01-navbar-d.png" alt="">
+            </a>
+        </div>
+        <div id="content">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, consectetur quas. Asperiores
+                    exercitationem aliquid ullam dolorum illum porro nam odio corrupti, natus amet, ratione optio sequi
+                    reiciendis sit a? Dicta.</p>
+            </div>
+            <!-- FAMILY START -->
+            <div id="family">
+                <h2><img src="img/02-famiri-a.png" alt=""></h2>
+                <div class="family-content">
+                    <!-- Slider main container -->
+                    <div class="swiper family-slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper family-slider-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide family-slide">
+                                <img src="img/01_ファミリー.png" alt="">
+                                <p>A Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="swiper-slide family-slide">
+                                <img src="img/02_ファミリー.png" alt="">
+                                <p>B Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="swiper-slide family-slide">
+                                <img src="img/03_ファミリー.png" alt="">
+                                <p>C Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="swiper-slide family-slide">
+                                <img src="img/04_ファミリー.png" alt="">
+                                <p>D Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                            <div class="swiper-slide family-slide">
+                                <img src="img/05_ファミリー.png" alt="">
+                                <p>D Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="plank lg">
+                        <p class="planktext-a">
+                            駐車場無料【最大32時間ステイ】
+                            <br>
+                            15時から翌23時まで滞在できるバルコニー付き客室
+                        </p>
+                        <img src="img/02-famiri-d-plank-button.png" alt="">
+                    </div>
+
+                    <div class="plank lg">
+                        <p class="planktext-a">
+                            駐車場無料【最大32時間ステイ】
+                            <br>
+                            朝5時から翌13時まで滞在できるバルコニー付き客室
+                        </p>
+                        <img src="img/02-famiri-d-plank-button.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <!-- FAMILY END -->
+            <!-- MAMAPAPA START -->
+            <div id="mamapapa">
+                <h2><img src="img/03-mamapapa-a.png" alt=""></h2>
+                <div class="mamapapa-content">
+                    <div class="mamapapa-images">
+                        <div>
+                            <img src="img/01_ベビー.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/02_ベビー.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/03_ベビー.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/04_ベビー.png" alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae id porro numquam, cupiditate placeat provident suscipit nulla ipsam, eos blanditiis nobis, labore fugiat rem iste in quae necessitatibus impedit corrupti?</p>
+                    </div>
+                    <div class="plank lg">
+                        <p class="planktext-a">
+                            家族旅行応援【ウェルカムベビーのお宿】
+                        </p>
+                        <img src="img/03-mamapapa-c-ridobutton.png" alt="">
+                    </div>
+                    <div class="plank sp">
+                        <p class="planktext-a">
+                            家族旅行応援【ウェルカムベビーのお宿】
+                        </p>
+                        <img src="img/mamapapabuttonsp.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- MAMAPAPA END -->
+            <div id="camp"></div>
+            <div id="buffet"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

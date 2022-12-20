@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #9ebee5;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#wrapper {
+    width: 100%;
+}
+@media only screen and (min-width:320px) {
+    .lg {
+        display: none;
+    }
+    #top {
+        background: url(../img/top-fuyusp.png) center center no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        position: relative;
+    }
+    #menu-lg {
+        display: none;
+    }
+
+    .top-text {
+        text-align: center;
+    }
+
+    #content {
+        background-image: url(../img/01-top-ca-cropped.png), url(../img/06-bottom-g.png);
+        background-repeat: repeat-x;
+        background-position: -500px left, bottom left ;
+        height: 1000px;
+    }
+
+     /* ====== FAMILY ======= */
+    
+    #family {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+    }
+
+    #family h2 {
+        position: absolute;
+        top: 0;
+    }
+
+    #family h2 img {
+        width: 100%;
+    }
+
+    .family-content {
+        background-color: #e9c648;
+        background-image: url(../img/02-famiri-e-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 325px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 500px;
+    }
+
+    .family-slide img {
+        width: 100%;
+    }
+
+     /* ====== FAMILY ======= */
+    /* ====== MAMAPAPA ======= */
+    #mamapapa {
+        position: relative;
+        padding-top: 70px;
+        margin-top: 40px;
+    }
+    #mamapapa h2 {
+        position: absolute;
+        top: 0;
+    }
+
+    #mamapapa h2 img {
+        width: 100%;
+    }
+
+    .mamapapa-content {
+        background-color: #4d944d;
+        background-image: url(../img/03-mamapapa-d-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 200px;
+    }
+
+    .mamapapa-images div {
+        margin-bottom: 20px;
+    }
+
+    .mamapapa-images img {
+        width: 100%;
+    }
+
+    #mamapapa .plank {
+        background-color: #da7f09;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    }
+    #mamapapa .plank img {
+        margin-top: 15px;
+    }
+
+    /* ====== MAMAPAPA ======= */
+}
+@media only screen and (min-width: 1024px){   
+    .sp {
+        display: none;
+    }
+    .menu-sp {
+        display: none;
+    }
+    .lg {
+        display: block;
+    }
+    #top {
+        background: url(../img/01-top-bb.png) center center no-repeat;
+        background-size: cover;
+        min-height: 500px;
+    }
+
+    .top-text {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .top-text img.lg {
+        display: block;
+        width: 100%;
+    }
+
+    #menu-lg {
+        display: flex;
+        background-color: #3364b7;
+        padding-top: 10px;
+    }
+
+    #menu-lg a{
+        display: block;
+        width: 25%;
+    }
+
+    #menu-lg a{
+        display: block;
+        width: 25%;
+    }
+
+    #menu-lg a img{
+        width: 100%;
+        display: block;
+    }
+    /* ====== FAMILY ======= */
+    .plank {
+        background-color: #f75c73;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    }
+    .plank img {
+        margin-top: 15px;
+    }
+    /* ====== FAMILY ======= */
+    /* ====== MAMAPAPA ======= */    
+    #mamapapa .plank {
+        background-color: #da7f09;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    }
+    #mamapapa .plank img {
+        margin-top: 15px;
+    }
+
+    /* ====== MAMAPAPA ======= */
+}
+@media only screen and (min-width: 1440px){
+    #top {
+        min-height: 1100px;
+    }
+
+    /* ====== FAMILY ======= */
+    #family {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+    }
+
+    #family h2 {
+        position: absolute;
+        top: 0;
+    }
+
+    #family h2 img {
+        width: 100%;
+    }
+
+    .family-content {
+        background-color: #e9c648;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 325px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 500px;
+    }
+
+    .family-slide {
+        text-align: center;
+    }
+     /* ====== FAMILY ======= */
+
+     /* ====== MAMAPAPA ======= */
+
+     #mamapapa {
+        position: relative;
+        padding-top: 70px;
+        margin-top: 40px;
+    }
+    #mamapapa h2 {
+        position: absolute;
+        top: 0;
+    }
+
+    #mamapapa h2 img {
+        width: 100%;
+    }
+
+    .mamapapa-content {
+        background-color: #4d944d;
+        background-image: url(../img/03-mamapapa-d-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 325px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 500px;
+    }
+
+    .mamapapa-images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mamapapa-images div {
+        margin-bottom: 0;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .mamapapa-images img {
+        width: 100%;
+    }
+    
+    /* ====== MAMAPAPA ======= */
+}
+
+@media only screen and (min-width: 1920px){
+    /* ====== FAMILY ======= */
+    #family {
+        padding-top: 300px;
+    }
+
+    #family h2 {
+        position: absolute;
+        top: 0;
+    }
+
+    #family h2 img {
+        width: 100%;
+    }
+    
+     /* ====== FAMILY ======= */
+}
