@@ -35,6 +35,14 @@ body {
         background-position: -500px left, bottom left ;
         height: 1000px;
     }
+    #content p {
+        font-size: xx-large;
+        font-weight: 510;
+    }
+    .textfamily {
+        font-size: medium;
+        color: #052505;
+    }
 
      /* ====== FAMILY ======= */
     
@@ -123,6 +131,42 @@ body {
     }
 
     /* ====== MAMAPAPA ======= */
+    /* ====== CAMP======= */
+    #camp {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+    }
+
+    #camp h2 {
+        position: absolute;
+        top: 0;
+    }
+
+    #camp h2 img {
+        width: 100%;
+    }
+
+    .camp-content {
+        background-color: #e9c648;
+        background-image: url(../img/02-famiri-e-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 325px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 500px;
+    }
+
+    .camp-slide img {
+        width: 100%;
+    }
+
+     /* ====== CAMP ======= */
 }
 @media only screen and (min-width: 1024px){   
     .sp {
@@ -277,8 +321,27 @@ body {
     .mamapapa-images img {
         width: 100%;
     }
-    
+    .textmamapapa {
+        color: #032412;
+        font-size: medium;
+        
+    } 
     /* ====== MAMAPAPA ======= */
+    /* ====== CAMP======= */
+    .textcamp {
+        color: #052505;
+    }
+    .camp-content {
+        background-color:#f88620;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 325px;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 500px;
+    }
+    /* ====== CAMP======= */
 }
 
 @media only screen and (min-width: 1920px){
