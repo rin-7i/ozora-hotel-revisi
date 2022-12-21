@@ -28,27 +28,31 @@ body {
     .top-text {
         text-align: center;
     }
-
+    .text-content p {
+        font-size: large ;
+    }
     #content {
         background-image: url(../img/01-top-ca-cropped.png), url(../img/06-bottom-g.png);
         background-repeat: repeat-x;
         background-position: -500px left, bottom left ;
         height: 1000px;
+        padding-top: 20px;
     }
     #content p {
-        font-size: xx-large;
+        font-size: 10
+        0px;
         font-weight: 510;
     }
-    .textfamily {
-        font-size: medium;
-        color: #052505;
+    
+    .text-content {
+        text-align: center;
     }
 
      /* ====== FAMILY ======= */
     
     #family {
         position: relative;
-        padding-top: 210px;
+        padding-top: 60px;
         margin-top: 300px;
     }
 
@@ -75,11 +79,18 @@ body {
         padding-right: 10px;
         padding-bottom: 500px;
     }
+    .plank {
+        padding-right: 150px;
+        justify-content: center;
+    }
 
     .family-slide img {
         width: 100%;
     }
-
+    .textfamily {
+        font-size: large;
+        color: #052505;
+    }
      /* ====== FAMILY ======= */
     /* ====== MAMAPAPA ======= */
     #mamapapa {
@@ -109,6 +120,7 @@ body {
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 200px;
+    
     }
 
     .mamapapa-images div {
@@ -134,9 +146,10 @@ body {
     /* ====== CAMP======= */
     #camp {
         position: relative;
-        padding-top: 210px;
+        padding-top: 60px;
         margin-top: 300px;
     }
+
 
     #camp h2 {
         position: absolute;
@@ -244,7 +257,14 @@ body {
     #top {
         min-height: 1100px;
     }
-
+    .text-content p {
+        font-size: xx-large;
+    }
+    #menu-lg img:hover{
+        transform: scale(5deg);
+        scale: 1.1;
+        transition: 0,5s;
+    }
     /* ====== FAMILY ======= */
     #family {
         position: relative;
@@ -266,7 +286,7 @@ body {
         width: 80%;
         max-width: 1500px;
         margin: 0 auto;
-        padding-top: 325px;
+        padding-top: 500px;
         padding-left: 200px;
         padding-right: 200px;
         padding-bottom: 500px;
@@ -275,13 +295,16 @@ body {
     .family-slide {
         text-align: center;
     }
+    #family .planktext-a {
+        font-weight: lighter;
+    }
      /* ====== FAMILY ======= */
 
      /* ====== MAMAPAPA ======= */
 
-     #mamapapa {
+    #mamapapa {
         position: relative;
-        padding-top: 70px;
+        padding-top: 163px;
         margin-top: 40px;
     }
     #mamapapa h2 {
@@ -302,7 +325,7 @@ body {
         width: 80%;
         max-width: 1500px;
         margin: 0 auto;
-        padding-top: 325px;
+        padding-top: 550px;
         padding-left: 200px;
         padding-right: 200px;
         padding-bottom: 500px;
@@ -326,22 +349,133 @@ body {
         font-size: medium;
         
     } 
+    #mamapapa .planktext-a {
+        font-weight: lighter;
+    }
     /* ====== MAMAPAPA ======= */
     /* ====== CAMP======= */
+    #camp {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+    }
     .textcamp {
         color: #052505;
     }
     .camp-content {
         background-color:#f88620;
-        width: 80%;
-        max-width: 1500px;
         margin: 0 auto;
-        padding-top: 325px;
+        background-image: url(../img/04-hoterukamp-e-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding-top: 550px;
         padding-left: 200px;
         padding-right: 200px;
         padding-bottom: 500px;
     }
+    #camp .plank {
+        background-color: #782026;
+        color: #fff;
+        text-align: center;
+        margin-top: 70px;
+        padding: 60px 0;
+        font-size: medium;
+        font-weight: 100;
+    }
+    #camp .planktext-a {
+        font-size: xx-large;
+        font-weight: lighter;
+    }
     /* ====== CAMP======= */
+    /* ====== BUFFET======= */
+    #buffet {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+    }
+    .buffet h2 {
+        
+    }
+    #buffet .textbuffet {
+        font-weight: bold;
+    }
+    .textbuffet {
+        color: #e8f510;
+        padding-top: 163px;
+    }
+    .buffet-content {
+        background-color:#8e151d;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 600px;
+        padding-left: 200px;
+        padding-right: 200px;
+        position: relative;
+        z-index: -1;
+    }
+    #buffet .bgbuffettext {
+        position: absolute;
+        max-width: 1500px;
+        width: 100%;
+        bottom: -400px;
+        left: 0;
+        
+    } 
+    #buffet .bgbuffettext img {
+        width: 100% ;
+        display: block;
+    }
+    #buffet .bgbuffettext h3 {
+        text-align: center;
+        top: 180px;
+        padding-left: 450px;
+        font-size: 25px;
+    }
+    .rate {
+        position: relative;
+        bottom: -90px;
+         
+    }
+    .h3 {
+        bottom: -240px;
+    }
+    #buffet .bgbuffettext p {
+        text-align: center;
+        font-size: 30px;
+        padding-left: 400px;
+        z-index: -1;
+        
+    }
+    #buffet .swiper-slide img {
+        width: 100%;
+    }
+    #buffet .santa {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    /* ======BUFFET======= */
+    /* ======FeET======= */
+    #bottom .bottom-content {
+        background-color:#807cbc;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: -300px;
+        padding-left: 200px;
+        padding-right: 200px;
+        position: relative;
+        margin-top: 280px;
+        height: 1880px;
+    }
+    #bottom .bottom-content img {
+        position: absolute;
+        right: 0;
+    }
+    
+    /* ======FeET======= */
+    
 }
 
 @media only screen and (min-width: 1920px){
