@@ -394,8 +394,13 @@ body {
         padding-top: 210px;
         margin-top: 300px;
     }
-    .buffet h2 {
-        
+    #buffet .h2 {
+        top: 0;
+    }
+    #buffet h2 img {
+        width: 100%;
+        position: relative;
+        z-index: 2;
     }
     #buffet .textbuffet {
         font-weight: bold;
@@ -413,7 +418,6 @@ body {
         padding-left: 200px;
         padding-right: 200px;
         position: relative;
-        z-index: -1;
     }
     #buffet .bgbuffettext {
         position: absolute;
@@ -421,11 +425,13 @@ body {
         width: 100%;
         bottom: -400px;
         left: 0;
+        z-index: 1;
         
     } 
     #buffet .bgbuffettext img {
         width: 100% ;
         display: block;
+        z-index: -1;
     }
     #buffet .bgbuffettext h3 {
         text-align: center;
@@ -436,16 +442,18 @@ body {
     .rate {
         position: relative;
         bottom: -90px;
+        z-index: 1;
          
     }
     .h3 {
-        bottom: -240px;
+        bottom: -230px;
     }
     #buffet .bgbuffettext p {
         text-align: center;
         font-size: 30px;
         padding-left: 400px;
         z-index: -1;
+        
         
     }
     #buffet .swiper-slide img {
@@ -463,16 +471,24 @@ body {
         width: 80%;
         max-width: 1500px;
         margin: 0 auto;
-        padding-top: -300px;
+        padding-top: -163px;
         padding-left: 200px;
         padding-right: 200px;
         position: relative;
-        margin-top: 280px;
+        margin-top: 190px;
         height: 1880px;
     }
     #bottom .bottom-content img {
         position: absolute;
         right: 0;
+
+    }
+    #bottom .kupon p {
+        padding-top: 500px;
+        font-size: 25px;
+    }
+    #bottom .jal {
+       
     }
     
     /* ======FeET======= */
