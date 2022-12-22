@@ -11,20 +11,31 @@ body {
 #wrapper {
     width: 100%;
 }
+
 @media only screen and (min-width:320px) {
     .lg {
         display: none;
     }
     #top {
-        background: url(../img/top-fuyusp.png) center center no-repeat;
+        background: url(../img/top-fuyusp2.png) center center no-repeat;
         background-size: cover;
         min-height: 500px;
         position: relative;
-    }
+    } 
     #menu-lg {
         display: none;
     }
-
+    .menu-sp .img  {
+       width: 100%;
+       padding-right: 300px;
+    }
+    .menu-sp {
+        padding-left: 250px;
+    }
+    .logo {
+        width: 100%;
+        padding-left: 50px;
+    }
     .top-text {
         text-align: center;
     }
@@ -35,7 +46,7 @@ body {
         background-image: url(../img/01-top-ca-cropped.png), url(../img/06-bottom-g.png);
         background-repeat: repeat-x;
         background-position: -500px left, bottom left ;
-        height: 1000px;
+        height: 500px;
         padding-top: 20px;
     }
     #content p {
@@ -49,11 +60,17 @@ body {
     }
 
      /* ====== FAMILY ======= */
-    
+     #family .plank {
+        background-color: #f75c73;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    }
     #family {
         position: relative;
-        padding-top: 60px;
-        margin-top: 300px;
+        padding-top: 40px;
+        margin-top: 30px;
     }
 
     #family h2 {
@@ -72,12 +89,12 @@ body {
         background-position: bottom;
         background-size: contain;
         width: 80%;
-        max-width: 1500px;
+        max-width: 1000px;
         margin: 0 auto;
-        padding-top: 325px;
+        padding-top: 100px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-bottom: 500px;
+        padding-bottom: 100px;
     }
     .plank {
         padding-right: 150px;
@@ -91,12 +108,27 @@ body {
         font-size: large;
         color: #052505;
     }
-     /* ====== FAMILY ======= */
+    #family h2 img {
+        width: 100%; 
+     }
+     #family .plank img {
+        margin-top: 15px;
+        width: 100%;
+    }
+     /* ====== FAMILYEND ======= */
     /* ====== MAMAPAPA ======= */
     #mamapapa {
         position: relative;
-        padding-top: 70px;
+        padding-top: 30px;
         margin-top: 40px;
+    }
+    
+    #mamapapa .plank {
+        background-color: #da7f09;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
     }
     #mamapapa h2 {
         position: absolute;
@@ -104,7 +136,7 @@ body {
     }
 
     #mamapapa h2 img {
-        width: 100%;
+       width: 100%; 
     }
 
     .mamapapa-content {
@@ -116,10 +148,10 @@ body {
         width: 80%;
         max-width: 1500px;
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 124px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-bottom: 200px;
+        padding-bottom: 50px;
     
     }
 
@@ -131,7 +163,7 @@ body {
         width: 100%;
     }
 
-    #mamapapa .plank {
+    #mamapapa .plank .sp{
         background-color: #da7f09;
         color: #fff;
         text-align: center;
@@ -140,16 +172,16 @@ body {
     }
     #mamapapa .plank img {
         margin-top: 15px;
+        width: 100%;
     }
 
-    /* ====== MAMAPAPA ======= */
+    /* ====== MAMAPAPAEND ======= */
     /* ====== CAMP======= */
     #camp {
         position: relative;
         padding-top: 60px;
-        margin-top: 300px;
+        margin-top: 40px;
     }
-
 
     #camp h2 {
         position: absolute;
@@ -169,18 +201,99 @@ body {
         width: 80%;
         max-width: 1500px;
         margin: 0 auto;
-        padding-top: 325px;
+        padding-top: 100px;
         padding-left: 10px;
         padding-right: 10px;
-        padding-bottom: 500px;
+        padding-bottom: 100px;
     }
 
     .camp-slide img {
         width: 100%;
     }
+    #camp .plank {
+        background-color: #782026;
+        color: #fff;
+        text-align: center;
+        margin-top: 70px;
+        padding: 60px 0;
+        font-size: medium;
+        font-weight: 100;
+    }
+    #camp .plank img {
+        margin-top: 15px;
+        width: 100%;
+    }
+     /* ====== CAMPEND ======= */
 
-     /* ====== CAMP ======= */
+      /* ====== buffet ======= */
+     #buffet h2 img {
+        width: 100%;
+        z-index: -1;
+     }
+     
+     .buffet-content {
+        background-color:#8e151d;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 100px;
+        margin-top: -80px;
+    }
+    .buffet-slide img {
+        width: 100%;
+    }
+    #buffet {
+        position: relative;
+        padding-top: 40px;
+        margin-top: 100px;
+    }
+    .bgbuffettext img {
+        width: 100%;
+    }
+    .rate img {
+        width: 100%;
+    }
+    .santa img {
+        width: 100%;
+    }
+
+    /* ====== buffetend ======= */
+    /* ====== BOTTOM ======= */
+    #bottom .bottom-content {
+        background-color:#807cbc;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        margin-top: 190px;
+    }
+    .moon img {
+        width: 100%;
+    }
+    .jal img {
+        width: 100%;
+    }
+    .ana img {
+        width: 100%;
+    }
+    .plankfeet img {
+        width: 100%;
+    }
+    .kupon img {
+        width: 100%;
+    }
+    
 }
+
 @media only screen and (min-width: 1024px){   
     .sp {
         display: none;
@@ -228,7 +341,7 @@ body {
         display: block;
     }
     /* ====== FAMILY ======= */
-    .plank {
+    #family .plank {
         background-color: #f75c73;
         color: #fff;
         text-align: center;
@@ -239,6 +352,7 @@ body {
         margin-top: 15px;
     }
     /* ====== FAMILY ======= */
+
     /* ====== MAMAPAPA ======= */    
     #mamapapa .plank {
         background-color: #da7f09;
@@ -272,7 +386,13 @@ body {
         padding-top: 210px;
         margin-top: 300px;
     }
-
+    #family .plank {
+        background-color: #f75c73;
+        color: #fff;
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px 0;
+    }
     #family h2 {
         position: absolute;
         top: 0;
@@ -350,8 +470,14 @@ body {
         font-size: medium;
         
     } 
-    #mamapapa .planktext-a {
+    #plank .lg .planktext-a {
         font-weight: lighter;
+    }
+    #mamapapa .planktext-a img {
+        width: auto;
+    }
+    .plank .lg img {
+        width: 100%;
     }
     /* ====== MAMAPAPA ======= */
     /* ====== CAMP======= */
@@ -397,7 +523,7 @@ body {
     #buffet .h2 {
         top: 0;
     }
-    #buffet h2 img {
+    h2 img {
         width: 100%;
         position: relative;
         z-index: 2;
@@ -468,6 +594,9 @@ body {
     /* ======FeET======= */
     #bottom .bottom-content {
         background-color:#807cbc;
+        background-image: url(../img/06-bottom-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
         width: 80%;
         max-width: 1500px;
         margin: 0 auto;
@@ -487,11 +616,28 @@ body {
         padding-top: 500px;
         font-size: 25px;
     }
-    #bottom .jal {
-       
+    .santa {
+        z-index: 1;
+    }
+    .buffet-slide img {
+        width: 100%;
+    }
+    #buffet {
+        position: relative;
+        padding-top: 40px;
+        margin-top: 100px;
+    }
+    .bgbuffettext img {
+        width: 100%;
+    }
+    .rate img {
+        width: 100%;
+    }
+    .santa img {
+        width: 100%;
     }
     
-    /* ======FeET======= */
+    /* ======FeETEND======= */
     
 }
 
