@@ -918,6 +918,454 @@ body {
 
 
 @media only screen and (min-width: 1440px){
+    #top {
+        background: url(../img/top-fuyu.png) center center no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        position: relative;
+    } 
+    .logo .lg {
+        display: block;
+    }
+    #top {
+        min-height: 1100px;
+    }
+    #top .sp {
+        display: none;
+    }
+    #menu-lg img:hover{
+        transform: scale(5deg);
+        transition: 3s;
+        scale: 1.1;
+        transition: 0,5s;
+    }
+    .menu-sp .img {
+        display: none;
+    }
+    .toptext {
+        display: block;
+        text-align: center;
+        font-size: 38px;
+        color: #2c2a7e;
+    }
+    .toptext img {
+        width: 100%;
+        padding-top: 100px;
+        margin-top: -424px;
+        z-index: -4;
+        position: relative;
+    }
+    
+    /* ====== FAMILY ======= */
+    #family {
+        position: relative;
+        padding-top: 106px;
+        margin-top: -377px;
+    }
+    #family .plank {
+        background-color: #f75c73;
+        color: rgb(250, 248, 248);
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 39px;
+        padding: 32px 0;
+    }
+    #family h2 {
+        position: absolute;
+        top: 0;
+    }
+    
+    #family h2 img {
+        width: 100%;
+    }
+    
+    .family-content {
+        background-color: #e9c648;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 163px;
+        padding-left: 79px;
+        padding-right: 75px;
+        padding-bottom: 175px;
+    }
+    
+    
+    .family-slide {
+        text-align: center;
+    }
+    #family .swiper-slide p {
+        font-size: 30px;
+    }
+    #family .swiper-slide p {
+        font-size: 35px;
+        color: #206e28;
+        font-weight: 500;
+        padding-top: 23px;
+    }
+    #family .plank p {
+    font-size: 31px;
+    }
+    #family .plank img {
+        margin-top: 37px;
+        width: 600px;
+    }
+    .textfamily {
+        text-align: center;
+    }
+    #family .planktext-a {
+        font-weight: lighter;
+    }
+     /* ====== FAMILY ======= */
+    
+     /* ====== MAMAPAPA ======= */
+    
+    #mamapapa {
+        position: relative;
+        padding-top: 170px;
+        margin-top: 43px;
+    }
+    
+    #mamapapa h2 {
+        position: absolute;
+        top: 0;
+    }
+    
+    #mamapapa h2 img {
+        width: 100%;
+    }
+    #mamapapa h2 img {
+        width: 100%;
+        margin-top: -131px;
+    }
+    .mamapapa-content {
+        background-color: #4d944d;
+        background-image: url(../img/03-mamapapa-d-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 142px;
+        padding-left: 79px;
+        padding-right: 75px;
+        padding-bottom: 384px;
+    }
+    #mamapapa .textmamapapa p {
+        background-color: #206e28;
+        font-size: 30px;
+        color: #da7f09;
+        font-weight: 600;
+        padding: 25px 0;
+    }
+    #mamapapa .plank {
+        background-color: #da7f09;
+        color: #fff;
+        text-align: center;
+        margin-top: 63px;
+        padding: 70px 0;
+    }
+    #mamapapa .plank img {
+        margin-top: 15px;
+        width: 600px;
+    }
+    #mamapapa .plank {
+        background-color: #da7f09;
+        color: #fff;
+        text-align: center;
+        margin-top: 63px;
+        padding: 70px 0;
+    }
+    .mamapapa-images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mamapapa-images div {
+        margin-bottom: 0;
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .mamapapa-images img {
+        width: 100%;
+    }
+    .textmamapapa {
+        color: #032412;
+        font-size: medium;
+        
+    } 
+    #plank .lg .planktext-a {
+        font-weight: lighter;
+    }
+    #mamapapa .planktext-a img {
+        width: auto;
+    }
+    #mamapapa .planktext-a {
+        font-size: 38px;
+        padding-top: -3px;
+    }
+    .plank .lg img {
+        width: 100%;
+    }
+    /* ====== MAMAPAPA ======= */
+    /* ====== CAMP======= */
+    #camp h2 img {
+        width: 100%;
+        margin-top: -408px;
+    }
+    #camp {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+    }
+    .textcamp {
+        color: #052505;
+    }
+    .camp-content {
+        background-color:#f88620;
+        margin: 0 auto;
+        background-image: url(../img/04-hoterukamp-e-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        padding-top: 117px;
+        padding-left: 79px;
+        padding-right: 75px;
+        padding-bottom: 315px;
+        margin-top: -376px;
+    }
+    .textcamp {
+        font-size: 41px;
+        color: #16361b;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #camp .planktext-a {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: lighter;
+        padding: 20px 0;
+    
+    }
+    .camp-slide img {
+        width: 100%;
+        padding-top: 200px;
+    }
+    #camp .plank {
+        background-color: #782026;
+        color: #fff;
+        text-align: center;
+        margin-top: 70px;
+        padding: 60px 0;
+        font-size: medium;
+        font-weight: 100;
+    }
+    #camp .plank img {
+        margin-top: 15px;
+        width:600px;
+    }
+    /* ====== CAMP======= */
+    /* ====== BUFFET======= */
+    #buffet {
+        position: relative;
+        padding-top: 210px;
+        margin-top: 300px;
+        
+    }
+    #buffet h2 img {
+        margin-top: -376px;
+        padding-bottom: -20px;
+        padding-top: 42px;
+    }
+    #buffet .h2 {
+        top: 0;
+    }
+    #buffet h2 img {
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    #buffet .textbuffet {
+        font-weight: bold;
+    }
+    .textbuffet {
+        color: #e8f510;
+        padding-top: 163px;
+    }
+    .buffet-content {
+        background-color:#8e151d;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: 323px;
+        padding-left: 200px;
+        padding-right: 200px;
+        position: relative;
+        margin-top: -305px;
+        padding-left: 79px;
+        padding-right: 75px;
+    }
+    .buffet-slide img {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #buffet .bgbuffettext {
+        max-width: 1500px;
+        width: 100%;
+        bottom: -400px;
+        left: 0;
+        position: relative;
+        z-index: 1;
+        padding-top: 70px;
+        margin-top: -632px;
+        
+    } 
+    #buffet .textbuffet {
+        font-size: 39px;
+        color: #e8f510;
+        font-weight: normal;
+        text-align: center;
+        padding-top: 25px;
+    }
+    #buffet .bgbuffettext img {
+        width: 100% ;
+        display: block;
+        z-index: -1;
+        position: relative;
+        padding-top: 20px;
+        margin-top: -96px;
+    }
+    #buffet .bgbuffettext h3 {
+        text-align: center;
+        top: -140px;
+        font-size: 31px;
+        text-align: center;
+        padding-top: -18px;
+        margin-top: -329px;
+    }
+    .rate {
+        position: relative;
+        bottom: -90px;
+        z-index: 6;
+         
+    }
+    .h3 {
+        bottom: -230px;
+    }
+    #buffet .bgbuffettext p {
+        text-align: center;
+        font-size: 30px;
+        padding-left: 400px;
+        z-index: -1;
+        
+        
+        
+    }
+    .bottomfeet img {
+        display: none;
+    }
+    #buffet .bgbuffettext p {
+       padding-top: 30px; 
+    }
+    #buffet .swiper-slide img {
+        width: 100%;
+        margin-top: 20px;
+        padding-top: -50px;
+    }
+    #buffet .santa {
+        left: 0;
+        bottom: 0;
+    }
+    .bgbuffettext img {
+        width: 100%;
+    }
+    .rate img {
+        width: 582px;
+    }
+    .kuponb img {
+        padding-top: 1px;
+        width: 372px;
+        position: relative;
+        left: 193px;
+    }
+    .endlg img {
+        position: relative;
+        width: 1150px;
+        margin-top: 620px;
+        left: -193px;
+    }
+    
+    #buffet .santa img {
+        width: 400px;
+        padding-top: 63px;
+        margin-top: 19px;
+        position: relative;
+        top: -41px;
+        z-index: 8;
+    }
+    .santa img {
+        z-index: 1;
+    }
+    .rate img {
+        position: relative;
+        width: 600px;
+        left: 189px;
+        padding-top: 59px;
+        margin-top: -35px;
+        z-index: 8;
+        margin-bottom: -342px
+    }
+    
+    /* ======BUFFET======= */
+    /* ======FeET======= */
+    .moon img {
+        width: 100%;
+        margin-top: -54px;
+        margin-bottom: -102px;
+        position: relative;
+        left: 200px;
+    }
+    #bottom .bottom-content {
+        background-color:#807cbc;
+        background-image: url(../img/06-bottom-feet.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        width: 80%;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding-top: -163px;
+        padding-left: 200px;
+        padding-right: 200px;
+        position: relative;
+        margin-top: 190px;
+        height: 1880px;
+        z-index: -4;
+    }
+    .bgbuffettext img {
+        width: 100%;
+        margin-top: -346px;
+        position: relative;
+        z-index: 3;
+    }
+    
+    #bottom .kupon p {
+        padding-top: 43px;
+        font-size: 25px;
+    }
+    .santa {
+        z-index: 1;
+    }
+    .buffet-slide img {
+        width: 100%;
+    }
+    #buffet {
+        position: relative;
+        padding-top: 40px;
+        margin-top: 100px;
+    }
+    
 }   
 
 
