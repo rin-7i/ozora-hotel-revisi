@@ -356,7 +356,7 @@ body {
     .ratesp img {
         position: relative;
         width: 150px;
-        left: 65px;
+        left: 68px;
         padding-top: 30px;
     }
     .ratetext img {
@@ -393,7 +393,7 @@ body {
     /* ====== BOTTOM ======= */
     #bottom .bottom-content {
         background-color:#807cbc;
-        background-image: url(../img/06-bottom-feetsp.png);
+        background-image: url();
         background-repeat: no-repeat;
         background-position: bottom;
         width: 80%;
@@ -407,24 +407,52 @@ body {
         
     }
     .moon img {
-        width: 100px;
-        margin-top: -69px;
-        margin-bottom: 100px;
+        width: 200px;
+        margin-top: -76px;
+        margin-bottom: -48px;
         position: relative;
-        left: 190px;
+        left: 90px;
     }
     .jal img {
-        width: 100%;
+        width: 150px;
+        left: 60px;
+        position: relative;
+       
+
     }
     .ana img {
-        width: 100%;
+        width: 150px;
+        left: 60px;
+        position: relative;
     }
     .plankfeet img {
-        width: 100%;
+        width: 150px;
+        left: 60px;
+        position: relative;
     }
     .kupon img {
-        width: 100%;
+        width: 150px;
+        padding-top: -100px;
+        position: relative;
+        z-index: 1;
+        left: 60px;
     }
+    .kupon p {
+        font-size: 8px;
+        text-align: center;
+    }
+    .bottomfeetsp img{
+        width:329px;
+        position: relative;
+        right: 24px;
+        margin-bottom: 30px;
+
+    }
+    .snowspfeet img {
+        padding-top: 34px;
+    }
+
+
     
  
 @media only screen and (min-width: 1024px){   
@@ -743,6 +771,9 @@ body {
         left: 0;
         bottom: 0;
     }
+    .bgbuffettext img {
+        width: 100%;
+    }
     /* ======BUFFET======= */
     /* ======FeET======= */
     #bottom .bottom-content {
@@ -780,9 +811,6 @@ body {
         position: relative;
         padding-top: 40px;
         margin-top: 100px;
-    }
-    .bgbuffettext img {
-        width: 100%;
     }
     .rate img {
         width: 100%;
